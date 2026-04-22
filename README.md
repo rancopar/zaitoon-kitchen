@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zaitoon Kitchen
 
-## Getting Started
+A fine-dining restaurant web platform for a Kozhikode-based Malabar-Mediterranean fusion restaurant. Built as a portfolio demo project.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Editorial dark-themed landing page with scroll reveal animations
+- 48-dish menu across 7 categories with real food photography
+- Custom cart system using React Context — no backend required
+- Themed date picker and guest picker matching the site design
+- Delivery and pickup checkout with CGST + SGST breakdown
+- Sticky category navigator on desktop, floating book-icon nav on mobile
+- Fully responsive across all screen sizes
+- RanCoPar brand popup with logo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + custom CSS
+- **State:** React Context API
+- **Deployment:** Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+[zaitoon-kitchen.vercel.app](https://zaitoon-kitchen.vercel.app)
 
-To learn more about Next.js, take a look at the following resources:
+## Built By
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[RanCoPar](https://rancopar.com) — Ran Coding Partner
